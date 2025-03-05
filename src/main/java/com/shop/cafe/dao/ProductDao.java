@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import com.shop.cafe.dto.Product;
 
 // @Component // 객체 생성과 삭제를 프레임워크에 의지하는 컴포넌트가 되겠다.
-@Repository // 저장소야 .
+@Repository 
+// 저장소야 .
 public class ProductDao {
 	// Product에게 부탁하는 것임.
 	@Value("${spring.datasource.driver-class-name}")
